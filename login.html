@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <title> Event Registration</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="login.css" >
+    <!-- <link rel="stylesheet" type="text/css" href="login.css" > -->
+    
+  </head>
+  <body>
+    <div class="al">
+      <form action="login.php" method="post">
+          <legend>
+            Login
+          </legend>
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="name" class="col-form-label">User Name/ e-mail Id </label>
+              <input class="form-control" id="name" name="name" type="text" aria-describedby="passwordHelpInline">
+
+              <br> <br>
+              <label for="Password" class="col-form-label">Password </label>
+            
+              <input type="password" id="Password" name="password" class="form-control" aria-describedby="passwordHelpInline">
+
+              <br> <br> <br>
+              <a href="profile.html" > <button  name = "submit" type="button" class="btn btn-primary" id="submit">Submit</button> </a>
+              <div id="result"></div>
+            </div>  
+          </div>   
+      </form>
+    </div>
+  </body>
+</html>
